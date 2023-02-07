@@ -1,4 +1,4 @@
-package module6;
+package markers;
 
 import de.fhpotsdam.unfolding.data.PointFeature;
 import processing.core.PGraphics;
@@ -21,11 +21,11 @@ public class OceanQuakeMarker extends EarthquakeMarker {
 	@Override
 	public void drawEarthquake(PGraphics pg, float x, float y) {
 		//IMPLEMENT: drawing centered square for Ocean earthquakes
-		// DO NOT set the fill color.  That will be set in the EarthquakeMarker
+		// DO NOT set the fill color.  That will be set in the markers.EarthquakeMarker
 		// class to indicate the depth of the earthquake.
 		// Simply draw a centered square.
-		// HINT: Notice the radius variable in the EarthquakeMarker class
-		// and how it is set in the EarthquakeMarker constructor
+		// HINT: Notice the radius variable in the markers.EarthquakeMarker class
+		// and how it is set in the markers.EarthquakeMarker constructor
 		pg.rect(x-radius, y-radius, 2*radius, 2*radius);
 	}
 	

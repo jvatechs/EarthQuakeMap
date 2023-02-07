@@ -1,5 +1,4 @@
-package module6;
-
+package markers;
 
 import de.fhpotsdam.unfolding.geo.Location;
 import de.fhpotsdam.unfolding.marker.SimplePointMarker;
