@@ -11,7 +11,7 @@ import de.fhpotsdam.unfolding.marker.MultiMarker;
 import de.fhpotsdam.unfolding.providers.Microsoft;
 import de.fhpotsdam.unfolding.utils.MapUtils;
 import src.markers.*;
-import src.parsing.ParseFeed;
+import src.parsers.ParseFeed;
 import processing.core.PApplet;
 
 import java.util.ArrayList;
