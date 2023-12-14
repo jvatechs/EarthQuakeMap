@@ -271,7 +271,7 @@ public class EarthquakeCityMap extends PApplet {
     // Checks whether this quake occurred on land.  If it did, it sets the
     // "country" property of its PointFeature to the country where it occurred
     // and returns true.  Notice that the helper method isInCountry will
-    // set this "country" property already.  Otherwise it returns false.
+    // set this "country" property already.  Otherwise, it returns false.
     private boolean isLand(PointFeature earthquake) {
 
         // IMPLEMENT THIS: loop over all countries to check if location is in any of them
