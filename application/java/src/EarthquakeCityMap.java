@@ -66,14 +66,14 @@ public class EarthquakeCityMap extends PApplet {
 
         //     STEP 2: read in city data
         List<Feature> cities = GeoJSONReader.loadData(this, cityFile);
-        cityMarkers = new ArrayList<Marker>();
+        cityMarkers = new ArrayList<>();
         for (Feature city : cities) {
             cityMarkers.add(new CityMarker(city));
         }
 
         //     STEP 3: read in earthquake RSS feed
         List<PointFeature> earthquakes = ParseFeed.parseEarthquake(this, earthquakesURL);
-        quakeMarkers = new ArrayList<Marker>();
+        quakeMarkers = new ArrayList<>();
 
         for (PointFeature feature : earthquakes) {
             //check if LandQuake
@@ -139,7 +139,7 @@ public class EarthquakeCityMap extends PApplet {
         if (lastClicked != null) {
             unhideMarkers();
             lastClicked = null;
-        } else if (lastClicked == null) {
+        } else {
             checkEarthquakesForClick();
             if (lastClicked == null) {
                 checkCitiesForClick();
