@@ -1,4 +1,4 @@
-package markers;
+package src.markers;
 
 import de.fhpotsdam.unfolding.data.Feature;
 import de.fhpotsdam.unfolding.data.PointFeature;

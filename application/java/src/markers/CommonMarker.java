@@ -1,4 +1,4 @@
-package markers;
+package src.markers;
 
 import de.fhpotsdam.unfolding.geo.Location;
 import de.fhpotsdam.unfolding.marker.SimplePointMarker;
@@ -32,7 +32,7 @@ public abstract class CommonMarker extends SimplePointMarker {
 		clicked = state;
 	}
 	
-	// Common piece of drawing method for markers; 
+	// Common piece of drawing method for src.markers;
 	// YOU WILL IMPLEMENT. 
 	// Note that you should implement this by making calls 
 	// drawMarker and showTitle, which are abstract methods 

@@ -1,4 +1,4 @@
-package markers;
+package src.markers;
 
 import de.fhpotsdam.unfolding.data.PointFeature;
 import processing.core.PConstants;
@@ -56,7 +56,7 @@ public abstract class EarthquakeMarker extends CommonMarker
 	}
 	
 	// TODO: Add the method:
-	// public int compareTo(markers.EarthquakeMarker marker)
+	// public int compareTo(src.markers.EarthquakeMarker marker)
 	
 	
 	// calls abstract method drawEarthquake and then checks age and draws X if needed
