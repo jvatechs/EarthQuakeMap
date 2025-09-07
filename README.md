@@ -30,7 +30,7 @@ EarthQuakeMap is a Java-based application that visualizes real-time earthquake d
 4. Run the main application class to launch the map
 
  ## 📸Screenshots
-![App Screenshot](application/resources/EarthquakeMapScreenshot.png)
+![App Screenshot](src/main/resources/EarthquakeMapScreenshot.png)
 
  ## 📄License
 This project is released under the MIT License. Feel free to use, modify, and distribute it.
