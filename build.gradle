@@ -10,6 +10,9 @@ java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(8)
     }
+
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
 }
 
 application {
@@ -23,4 +26,8 @@ repositories {
 dependencies {
     implementation 'org.processing:core:3.3.7'
     implementation fileTree(dir: 'lib', include: ['*.jar'])
+}
+
+tasks.withType(JavaExec).configureEach {
+    classpath = sourceSets.main.runtimeClasspath
 }
